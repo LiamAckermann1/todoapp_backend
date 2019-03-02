@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+table, th, td {
+  border: 1px blue;
+  color:black;
+  border-collapse:collapse;
+  background-color: rgb(240,240,240);
+  border-style:double;
+  border-color:blue;
+  padding-top:3px;
+  padding-bottom:3px;
+  padding-left: 10px;
+  padding-right:10px;
+}
+.priority{text-align:center}
+.completed{text-align:center;}
+.task{text-align:center}
